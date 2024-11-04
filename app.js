@@ -17,4 +17,4 @@ app.listen(PORT, (req, res) => {
 app.use(express.static("public"));
 
 // router
-app.use("/", PostsRouter);
+app.use("/posts", PostsRouter);

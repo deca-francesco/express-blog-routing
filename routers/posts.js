@@ -9,7 +9,8 @@ const PostsController = require("../controllers/PostsController.js");
 // rotta index
 router.get("/", PostsController.index);
 
-
+// rotta show
+router.get("/:slug", PostsController.show);
 
 
 
